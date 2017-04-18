@@ -30,7 +30,8 @@
 			<!-- inner class holds the content specific to this area -->
 			<header id="masthead" class="site-header inner" role="banner"> <!-- inner class holds the content important to or specific to this area -->
 				<div class="site-branding">
-					<img src="http://www.alittlebitofpodunkheaven.dev/wp-content/uploads/2017/04/podunk-heaven-logo.png" border="0" alt="podunk heaven" />
+					<a href="<?php echo esc_url( home_url( '/' ) );?>"><img src="http://www.alittlebitofpodunkheaven.dev/wp-content/uploads/2017/04/podunk-heaven-logo.png" border="0" alt="podunk heaven" /></a>
+				</div>
 					<!--
 					<?php
 						if ( is_front_page() && is_home() ) : ?>
